@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modern Layout Example</title>
+    <style>
+      body {
+        margin: 0;
+        display: grid;
+        grid-template-rows: 100px auto 50px;
+        grid-template-columns: 200px auto;
+        height: 100vh;
+      }
+      header {
+        grid-column: span 2;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 10px;
+      }
+      footer {
+        grid-column: span 2;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 10px;
+      }
+      aside {
+        background-color: #ddd;
+        padding: 10px;
+      }
+      main {
+        background-color: #fff;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <aside>Sidebar</aside>
+    <main>Content</main>
+    <footer>Footer</footer>
+  </body>
+</html>
